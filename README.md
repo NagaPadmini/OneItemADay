@@ -1,6 +1,6 @@
-# JokeAndWord
+# OneItemADay
 
-Joke and Word app:
+OneItemADay app:
 -----------------
 This app features:
 - Random Joke and Word.
