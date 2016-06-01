@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NewMaterialDesign</string>
+    <string name="title_activity_main">One Item A Day</string>
+
+    <string name="display_time"> </string>
+    <string name="action_settings">Settings</string>
+    <string name="next">next_menu</string>
+    <string name="title_activity_sub">Setting</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="list_text" />
+    <string name="save">SaveText</string>
+    <string name="share">ShareText</string>
+    <string name="viewpager_text"> </string>
+    <string name="settings_drawer">Settings</string>
+    <string name="help_drawer">Help</string>
+    <string name="set_time_button">SetTime</string>
+    <string name="one_item_a_day">OneItemADay</string>
+
+    <string-array name="tabs">
+        <item>JOKE</item>
+        <item>WORD</item>
+    </string-array>
+    <string name="title_activity_help">Help</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="help_save_share">How to Save or Share Joke and Word?</string>
+    <string name="answer_save_share">LongPress on the Joke/Word displays Save and Share Menu to select.</string>
+    <string name="joke_word_file_location">Where does your Joke/Word save?</string>
+    <string name="answer_jokeword_file_location"><![CDATA[Go to MyFiles->All->Downloads and select the file name example.txt to view your Jokes/Words.]]></string>
+    <string name="why_setting">How to set Alarm to get Notification?</string>
+    <string name="answer_why_setting">Go to setting in the Navigation drawer->click SetTime button->set the time->click ok.</string>
+</resources>

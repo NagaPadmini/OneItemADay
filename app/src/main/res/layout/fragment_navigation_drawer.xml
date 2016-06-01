@@ -1,0 +1,58 @@
+<!--<org.lucasr.dspec.DesignSpecFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:designSpec="@raw/spec">-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00ACC1"
+    tools:context="com.example.padmini.newmaterialdesign.NavigationDrawerFragment">
+
+        <RelativeLayout
+            android:id="@+id/containerDrawerImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/navigationheader">
+
+       <!--    <ImageView
+                android:id="@+id/jokeImage"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="@dimen/drawer_margin_top"
+                android:src="@drawable/joke_of_the_day" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:layout_below="@id/jokeImage"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/word_of_theday" /> -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/one_item_a_day"
+                android:id="@+id/textViewJokeandWord"
+                android:textSize="30sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fffff9" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/drawerList"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/containerDrawerImage">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+<!--</org.lucasr.dspec.DesignSpecFrameLayout>-->

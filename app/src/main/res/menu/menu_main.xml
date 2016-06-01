@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.padmini.newmaterialdesign.OneItemADay">
+    <item android:id="@+id/navigate" android:title="@string/next"
+        android:icon="@drawable/ic_keyboard_arrow_right_white_24dp"
+        android:orderInCategory="200" app:showAsAction="always"/>
+</menu>

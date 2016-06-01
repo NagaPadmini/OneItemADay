@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.padmini.newmaterialdesign.Help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewHelp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:id="@+id/relativeHelp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/scrollViewHelp">
+
+            <include
+                android:id="@+id/tool_bar"
+                layout="@layout/tool_bar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_below="@+id/tool_bar"
+            android:text="@string/help_save_share"
+            android:id="@+id/helpSaveShare"
+            android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/answer_save_share"
+                android:id="@+id/answerSaveShare"
+                android:layout_below="@+id/helpSaveShare"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/joke_word_file_location"
+                android:id="@+id/jokewordFileLocation"
+                android:layout_below="@+id/answerSaveShare"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="40dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/answer_jokeword_file_location"
+                android:id="@+id/answerJokeWordFileLocation"
+                android:layout_below="@+id/jokewordFileLocation"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/why_setting"
+                android:id="@+id/whySetting"
+                android:layout_below="@+id/answerJokeWordFileLocation"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="44dp"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/answer_why_setting"
+                android:id="@+id/answerWhySetting"
+                android:layout_below="@+id/whySetting"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="10dp" />
+
+
+        </RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>
