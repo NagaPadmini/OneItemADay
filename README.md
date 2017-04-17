@@ -25,7 +25,7 @@ General Knowledge questions, Random quotes, Random tips etc.
 Android Components and Libraries Used:
 -------------------------------------
 - Activities !!!
-- Intents
+- Intents !!!!
 - SerVices
 - AlarmManager[System Service]
 - Fragments
