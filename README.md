@@ -8,7 +8,8 @@ This app features:
 - Setting Time-Scheduling Alarm to get a Joke as Notification.
 - Share with Friends
 - Save to File.
-- Help assistance is there to let users to know how to use this App.
+- Help assistance to let users know how to use this App
+
 
 Whether you're looking to make your friends laugh or you're just looking for a laugh yourself goahead and read the Joke.
 These Jokes are meant for age 17 and older.The main advantage of reading a Joke makes you feel Healthy,Stress-less and Happy.
