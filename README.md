@@ -12,7 +12,7 @@ This app features:
 
 
 Whether you're looking to make your friends laugh or you're just looking for a laugh yourself goahead and read the Joke.
-These Jokes are meant for age 17 and older.The main advantage of reading a Joke makes you feel Healthy,Stress-less and Happy.
+These Jokes are meant for age 17 and older.The main advantage of reading a Joke makes you feel Healthy,Stress-less and Happy forever.
 
 Word is very important.We use words to communicate with our family and friends.Learning a word improves your Vocabulary,and
 will help you gain Knowledge.
